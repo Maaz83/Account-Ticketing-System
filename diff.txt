@@ -1,0 +1,14 @@
+In line number 244 of your output:
+The output should be:
+Enter the ticket SUBJECT (30 chars. maximum): Funny Noises are coming from the unit!
+                                              ^
+But your output is: 
+Enter the ticket SUBJECT (30 chars. maximum): ^C
+                                              ^
+
+Unmatched character details:
+The character in column 47 is supposed to be:
+  [F] ASCII code(70)
+but you printed
+  [^] ASCII code(94)
+

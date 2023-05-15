@@ -1,0 +1,2775 @@
+Script started on Fri 02 Apr 2021 07:06:25 PM EDT
+
+
+##########################################################################
+Starting Account Ticketing System....
+   Loading account data... (15 accounts loaded)
+   Loading ticket data...  (16 tickets loaded)
+##########################################################################
+
+
+==============================================
+Account Ticketing System - Login
+==============================================
+1) Login to the system
+0) Exit application
+----------------------------------------------
+
+Selection: 1
+
+Enter the account#: 30004
+User Login    : cust2
+Password      : 77*&FFaa7
+INVALID user login/password combination! [attempts remaining:2]
+
+Enter the account#: 30004
+User Login    : cust2
+Password      : TT*&21tt
+INVALID user login/password combination! [attempts remaining:1]
+
+Enter the account#: 30004
+User Login    : cust3
+Password      : 77*&FFaa
+INVALID user login/password combination! [attempts remaining:0]
+
+ERROR:  Login failed!
+
+<< ENTER key to Continue... >>
+
+==============================================
+Account Ticketing System - Login
+==============================================
+1) Login to the system
+0) Exit application
+----------------------------------------------
+
+Selection: 1
+
+Enter the account#: 30005
+User Login    : cust2
+Password      : 77*&FFaa
+INVALID user login/password combination! [attempts remaining:2]
+
+Enter the account#: 30004
+User Login    : cust2
+Password      : 77*&FFaa
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 1
+
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+30004 CUSTOMER   1978 $ 250800.74 INDIA      Betty Boop      cust2      7***F*a*
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 4
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 ACTIVE Frequent Disconnects               5
+030530 ACTIVE Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE It's broken/does not work         19
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 80004
+
+ERROR: Invalid ticket number - you may only access your own tickets.
+
+<< ENTER key to Continue... >>
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 ACTIVE Frequent Disconnects               5
+030530 ACTIVE Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE It's broken/does not work         19
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 60001
+
+================================================================================
+060001 (ACTIVE) Re: Frequent Disconnects
+================================================================================
+CUSTOMER (Betty Boop):
+   Every time I go near the microwave the unit disconnects.
+
+AGENT (Will Smith):
+   Don't go near the microwave.
+
+AGENT (Will Smith):
+   It will radiate waves which will interrupt the unit.
+
+CUSTOMER (Betty Boop):
+   But I use the microwave a lot.
+
+AGENT (Will Smith):
+   You cook too much!
+
+<< ENTER key to Continue... >>
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 ACTIVE Frequent Disconnects               5
+030530 ACTIVE Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE It's broken/does not work         19
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 80020
+
+================================================================================
+080020 (ACTIVE) Re: It's broken/does not work
+================================================================================
+CUSTOMER (Betty Boop):
+   When I took it out of the box, it was in pieces.
+
+AGENT (Will Smith):
+   You have to assemble it - read the instructions.
+
+CUSTOMER (Betty Boop):
+   What are instructions?
+
+AGENT (Will Smith):
+   The paper document that look's like a book with words.
+
+CUSTOMER (Betty Boop):
+   Oh - right, okay so it says to snap part-1 to part-2.
+
+<< ENTER key to Continue... >>
+
+CUSTOMER (Betty Boop):
+   Hello? what should I do?
+
+CUSTOMER (Betty Boop):
+   Then it says to place part-3 on parts 1 and 2 then twist.
+
+CUSTOMER (Betty Boop):
+   Please help... I don't know what this means.
+
+AGENT (Will Smith):
+   It's been 9 months, are you still unable to assemble it?
+
+CUSTOMER (Betty Boop):
+   Yes, I am stuck on instruction 2 the twist part.
+
+<< ENTER key to Continue... >>
+
+AGENT (Will Smith):
+   Place part-3 into the grooves of parts 1 and 2, then rotate clockwise.
+
+CUSTOMER (Betty Boop):
+   Why?
+
+CUSTOMER (Betty Boop):
+   Hello?
+
+CUSTOMER (Betty Boop):
+   Well I did what you said, now it's in 3 pieces again.
+
+AGENT (Will Smith):
+   What did you do?
+
+<< ENTER key to Continue... >>
+
+CUSTOMER (Betty Boop):
+   I put part-3 in the grooves, than I turned clockwise causing it to fall off the table.
+
+AGENT (Will Smith):
+   You were to rotate part-3 not turn yourself around!
+
+CUSTOMER (Betty Boop):
+   Well now what do I do?
+
+AGENT (Will Smith):
+   What do you think?
+
+<< ENTER key to Continue... >>
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 ACTIVE Frequent Disconnects               5
+030530 ACTIVE Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE It's broken/does not work         19
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 2
+
+New Ticket (Ticket#:080600)
+----------------------------------------
+Enter the ticket SUBJECT (30 chars. maximum): Funny Noises are coming from the unit!
+ERROR: String length must be no more than 30 chars: Funny Noise!
+
+Enter the ticket message details (150 chars. maximum). Press the ENTER key to submit:
+When it turns on it screams at me and it's quite offending.
+
+*** New ticket created! ***
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 4
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 ACTIVE Frequent Disconnects               5
+030530 ACTIVE Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE It's broken/does not work         19
+080600 ACTIVE Funny Noise!                       1
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 2
+
+ERROR: Ticket listing is FULL, call ITS Support!
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter ticket number: 80004
+
+ERROR: Invalid ticket number - you may only modify your own ticket.
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter ticket number: 80020
+
+----------------------------------------
+Ticket 080020 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : It's broken/does not work
+----------------------------------------
+1) Modify the subject
+2) Add a message
+3) Close ticket
+0) Done
+Selection: 2
+
+Enter the ticket message details (150 chars. maximum). Press the ENTER key to submit:
+I'm so confused.
+
+----------------------------------------
+Ticket 080020 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : It's broken/does not work
+----------------------------------------
+1) Modify the subject
+2) Add a message
+3) Close ticket
+0) Done
+Selection: 1
+
+Enter the revised ticket SUBJECT (30 chars. maximum): Double broken!
+
+----------------------------------------
+Ticket 080020 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Double broken!
+----------------------------------------
+1) Modify the subject
+2) Add a message
+3) Close ticket
+0) Done
+Selection: 2
+
+ERROR: Message limit has been reached, call ITS Support!
+
+----------------------------------------
+Ticket 080020 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Double broken!
+----------------------------------------
+1) Modify the subject
+2) Add a message
+3) Close ticket
+0) Done
+Selection: 0
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter ticket number: 60001
+
+----------------------------------------
+Ticket 060001 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Frequent Disconnects
+----------------------------------------
+1) Modify the subject
+2) Add a message
+3) Close ticket
+0) Done
+Selection: 3
+
+Are you sure you CLOSE this ticket? ([Y]es|[N]o): Y
+
+Do you want to leave a closing message? ([Y]es|[N]o): N
+
+*** Ticket closed! ***
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter ticket number: 80600
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Funny Noise!
+----------------------------------------
+1) Modify the subject
+2) Add a message
+3) Close ticket
+0) Done
+Selection: 3
+
+Are you sure you CLOSE this ticket? ([Y]es|[N]o): Y
+
+Do you want to leave a closing message? ([Y]es|[N]o): Y
+
+Enter the ticket message details (150 chars. maximum). Press the ENTER key to submit:
+Never mind, I oiled it and all is fine now.
+
+*** Ticket closed! ***
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 4
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 CLOSED Frequent Disconnects               5
+030530 ACTIVE Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE Double broken!                    20
+080600 CLOSED Funny Noise!                       2
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 80600
+
+================================================================================
+080600 (CLOSED) Re: Funny Noise!
+================================================================================
+CUSTOMER (Betty Boop):
+   When it turns on it screams at me and it's quite offending.
+
+CUSTOMER (Betty Boop):
+   Never mind, I oiled it and all is fine now.
+
+<< ENTER key to Continue... >>
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 CLOSED Frequent Disconnects               5
+030530 ACTIVE Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE Double broken!                    20
+080600 CLOSED Funny Noise!                       2
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter ticket number: 30530
+
+----------------------------------------
+Ticket 030530 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Does not respond to command...
+----------------------------------------
+1) Modify the subject
+2) Add a message
+3) Close ticket
+0) Done
+Selection: 3
+
+Are you sure you CLOSE this ticket? ([Y]es|[N]o): Y
+
+*** Ticket closed! ***
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter ticket number: 80600
+
+ERROR: Ticket is closed - changes are not permitted.
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 4
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 CLOSED Frequent Disconnects               5
+030530 CLOSED Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE Double broken!                    20
+080600 CLOSED Funny Noise!                       2
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 80020
+
+================================================================================
+080020 (ACTIVE) Re: Double broken!
+================================================================================
+CUSTOMER (Betty Boop):
+   When I took it out of the box, it was in pieces.
+
+AGENT (Will Smith):
+   You have to assemble it - read the instructions.
+
+CUSTOMER (Betty Boop):
+   What are instructions?
+
+AGENT (Will Smith):
+   The paper document that look's like a book with words.
+
+CUSTOMER (Betty Boop):
+   Oh - right, okay so it says to snap part-1 to part-2.
+
+<< ENTER key to Continue... >>
+
+CUSTOMER (Betty Boop):
+   Hello? what should I do?
+
+CUSTOMER (Betty Boop):
+   Then it says to place part-3 on parts 1 and 2 then twist.
+
+CUSTOMER (Betty Boop):
+   Please help... I don't know what this means.
+
+AGENT (Will Smith):
+   It's been 9 months, are you still unable to assemble it?
+
+CUSTOMER (Betty Boop):
+   Yes, I am stuck on instruction 2 the twist part.
+
+<< ENTER key to Continue... >>
+
+AGENT (Will Smith):
+   Place part-3 into the grooves of parts 1 and 2, then rotate clockwise.
+
+CUSTOMER (Betty Boop):
+   Why?
+
+CUSTOMER (Betty Boop):
+   Hello?
+
+CUSTOMER (Betty Boop):
+   Well I did what you said, now it's in 3 pieces again.
+
+AGENT (Will Smith):
+   What did you do?
+
+<< ENTER key to Continue... >>
+
+CUSTOMER (Betty Boop):
+   I put part-3 in the grooves, than I turned clockwise causing it to fall off the table.
+
+AGENT (Will Smith):
+   You were to rotate part-3 not turn yourself around!
+
+CUSTOMER (Betty Boop):
+   Well now what do I do?
+
+AGENT (Will Smith):
+   What do you think?
+
+CUSTOMER (Betty Boop):
+   I'm so confused.
+
+<< ENTER key to Continue... >>
+
+------ ------ ------------------------------ --------
+Ticket Status Subject                        Messages
+------ ------ ------------------------------ --------
+060001 CLOSED Frequent Disconnects               5
+030530 CLOSED Does not respond to command...    20
+070533 ACTIVE Nothing happens...                20
+080020 ACTIVE Double broken!                    20
+080600 CLOSED Funny Noise!                       2
+------ ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+CUSTOMER: Betty Boop (30004)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) Create a new ticket
+3) Modify an active ticket
+4) List my tickets
+----------------------------------------------
+0) Logout
+
+Selection: 0
+
+Saving session modifications...
+   17 tickets saved.
+### LOGGED OUT ###
+
+==============================================
+Account Ticketing System - Login
+==============================================
+1) Login to the system
+0) Exit application
+----------------------------------------------
+
+Selection: 1
+
+Enter the account#: 50008
+User Login    : agentJ
+Password      : TT*&21tt
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 11
+
+There are 0 account(s) currently archived.
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 12
+
+There are 0 ticket(s) and a total of 0 message(s) archived.
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 1
+
+ERROR: Account listing is FULL, call ITS Support!
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 34063
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+34063 CUSTOMER   1989 $  27746.17 SRI LANKA  Jeffrey Gills   Kibo       N*9*s*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): y
+ERROR: Character must be one of [YN]: Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 1
+
+New Account Data (Account#:82043)
+----------------------------------------
+Enter the account type (A=Agent | C=Customer): C
+
+User Login Data Input
+----------------------------------------
+Enter user login (10 chars max): NobodyWillKnowMe
+ERROR: String length must be no more than 10 chars: Nobody Will Know Me
+ERROR: String length must be no more than 10 chars: No Body
+ERROR:  The user login must NOT contain whitespace characters.
+Enter user login (10 chars max): HarryHorse
+Enter the display name (30 chars max): Horse and goat and donkey get along
+ERROR: String length must be no more than 30 chars: Nay to Hay
+Enter the password (must be 8 chars in length): abcdefg
+ERROR: String length must be exactly 8 chars: aaJJ88$#a
+ERROR: String length must be exactly 8 chars: aJJ77$#J
+SECURITY: Password must contain 2 of each:
+          Digit: 0-9
+          UPPERCASE character
+          lowercase character
+          symbol character: !@#$%^&*
+Enter the password (must be 8 chars in length): aaJ99$#c
+SECURITY: Password must contain 2 of each:
+          Digit: 0-9
+          UPPERCASE character
+          lowercase character
+          symbol character: !@#$%^&*
+Enter the password (must be 8 chars in length): aaJJ8$#@
+SECURITY: Password must contain 2 of each:
+          Digit: 0-9
+          UPPERCASE character
+          lowercase character
+          symbol character: !@#$%^&*
+Enter the password (must be 8 chars in length): aaJJ77*(
+SECURITY: Password must contain 2 of each:
+          Digit: 0-9
+          UPPERCASE character
+          lowercase character
+          symbol character: !@#$%^&*
+Enter the password (must be 8 chars in length): aaJJ88$#
+
+Demographic Data Input
+----------------------------------------
+Enter birth year (current age must be between 18 and 110): 2004
+ERROR: Value must be between 1911 and 2003 inclusive: 1910
+ERROR: Value must be between 1911 and 2003 inclusive: 2003
+Enter the household Income: $asdf
+ERROR: Value must be a double floating-point number: -8.22
+ERROR: Value must be a positive double floating-point number: 0.00
+ERROR: Value must be a positive double floating-point number: 125000.12
+Enter the country (30 chars max.): Not all countries get along unfortunately
+ERROR: String length must be no more than 30 chars: u.s.a.
+
+*** New account added! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 2
+
+Enter the account#: 53070
+
+Account: 53070 - Update Options
+----------------------------------------
+1) Update account type (current value: A)
+2) Login
+3) Demographics
+0) Done
+Selection: 1
+
+Enter the account type (A=Agent | C=Customer): c
+ERROR: Character must be one of [AC]: C
+Account: 53070 - Update Options
+----------------------------------------
+1) Update account type (current value: C)
+2) Login
+3) Demographics
+0) Done
+Selection: 2
+
+User Login: Lara - Update Options
+----------------------------------------
+1) Display name (current value: Wylie Pollard)
+2) Password
+0) Done
+Selection: 1
+
+Enter the display name (30 chars max): Wylie Coyote
+
+User Login: Lara - Update Options
+----------------------------------------
+1) Display name (current value: Wylie Coyote)
+2) Password
+0) Done
+Selection: 2
+
+Enter the password (must be 8 chars in length): dd99@$FF
+
+User Login: Lara - Update Options
+----------------------------------------
+1) Display name (current value: Wylie Coyote)
+2) Password
+0) Done
+Selection: 0
+
+Account: 53070 - Update Options
+----------------------------------------
+1) Update account type (current value: C)
+2) Login
+3) Demographics
+0) Done
+Selection: 3
+
+Demographic Update Options
+----------------------------------------
+1) Household Income (current value: $61384.65)
+2) Country (current value: ALBANIA)
+0) Done
+Selection: 1
+
+Enter the household Income: $0
+ERROR: Value must be a positive double floating-point number: 180222.22
+
+Demographic Update Options
+----------------------------------------
+1) Household Income (current value: $180222.22)
+2) Country (current value: ALBANIA)
+0) Done
+Selection: 2
+
+Enter the country (30 chars max.): canada
+
+Demographic Update Options
+----------------------------------------
+1) Household Income (current value: $180222.22)
+2) Country (current value: CANADA)
+0) Done
+Selection: 0
+
+Account: 53070 - Update Options
+----------------------------------------
+1) Update account type (current value: C)
+2) Login
+3) Demographics
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 5
+
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+30001 CUSTOMER   1990 $ 150000.10 CANADA     Silly Sally     cust1      A*1*3*D*
+50599 AGENT      1972 $2250400.22 AFRICA     Fred Flintstone agent1     y*b*#*@*
+30004 CUSTOMER   1978 $ 250800.74 INDIA      Betty Boop      cust2      7***F*a*
+50008 AGENT      1952 $2350600.82 U.S.A.     Will Smith      agentJ     T***2*t*
+20020 CUSTOMER   2000 $ 350500.35 KOREA      Shrimpy Shrimp  cust3      8*3*J*m*
+34000 AGENT      1991 $  61907.58 GREECE     Xyla Yates      Cherokee   E*1*d*&*
+53007 CUSTOMER   1963 $  22288.09 SLOVENIA   Chaney Kinney   Demetria   Y*0*j*&*
+30014 AGENT      1999 $  35403.36 SPAIN      Hanae Horn      Keiko      R*5*r*&*
+70021 AGENT      1951 $  77711.60 PORTUGAL   Kane Lancaster  Benjamin   H*8*z*&*
+35035 CUSTOMER   1999 $  83024.91 HONDURAS   Honorato Banks  Kimberly   C*7*o*&*
+82042 CUSTOMER   1932 $  40187.20 GUAM       Dexter Martin   Isabelle   H*2*k*&*
+35049 CUSTOMER   1990 $  60494.16 LESOTHO    Buck Odom       Aidan      B*6*s*&*
+54056 CUSTOMER   1961 $  91914.61 BAHAMAS    Craig Mcknight  Fredericka O*8*e*&*
+82043 CUSTOMER   2003 $ 125000.12 U.S.A.     Nay to Hay      HarryHorse a*J*8*$*
+53070 CUSTOMER   1990 $ 180222.22 CANADA     Wylie Coyote    Lara       d*9*@*F*
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 6
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+080599 20020 Shrimpy Shrimp  ACTIVE No power/does not turn on          1
+040599 35049 Buck Odom       ACTIVE Power Issue                        1
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 80599
+
+================================================================================
+080599 (ACTIVE) Re: No power/does not turn on
+================================================================================
+CUSTOMER (Shrimpy Shrimp):
+   The unit won't turn on - please help.
+
+<< ENTER key to Continue... >>
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+080599 20020 Shrimpy Shrimp  ACTIVE No power/does not turn on          1
+040599 35049 Buck Odom       ACTIVE Power Issue                        1
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 7
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+080599 20020 Shrimpy Shrimp  ACTIVE No power/does not turn on          1
+080004 20020 Shrimpy Shrimp  ACTIVE My head hurts!                     3
+070533 30004 Betty Boop      ACTIVE Nothing happens...                20
+080020 30004 Betty Boop      ACTIVE Double broken!                    20
+080204 30001 Silly Sally     ACTIVE It's very messy!                   2
+040599 35049 Buck Odom       ACTIVE Power Issue                        1
+040001 70021 Kane Lancaster  ACTIVE Connectivity Problem               5
+040530 70021 Kane Lancaster  ACTIVE Not doing what it's told...       20
+040004 35049 Buck Odom       ACTIVE Causes bodily harm!                3
+040533 70021 Kane Lancaster  ACTIVE Doesn't respond...                20
+040020 70021 Kane Lancaster  ACTIVE Damaged and in pieces             19
+040204 53070 Wylie Pollard   ACTIVE It's very messy!                   2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 70533
+
+================================================================================
+070533 (ACTIVE) Re: Nothing happens...
+================================================================================
+CUSTOMER (Betty Boop):
+   Instructions state to 'say yes' to the prompts - but nothing happens.
+
+AGENT (Fred Flintstone):
+   Is this when setting up the unit for the first time?
+
+CUSTOMER (Betty Boop):
+   Yes - it asks me if I'm ready to start and I tell it 'yes' nothing happens.
+
+AGENT (Fred Flintstone):
+   Are you pressing the 'yes' button on the unit?
+
+CUSTOMER (Betty Boop):
+   No, instructions state to say yes - not press any buttons.
+
+<< ENTER key to Continue... >>
+
+AGENT (Will Smith):
+   'say' was meant to be interpreted as press the 'yes' button.
+
+CUSTOMER (Betty Boop):
+   But the instructions don't mention any buttons.
+
+AGENT (Will Smith):
+   Agreed, it isn't very clear, but you must press the yes button.
+
+CUSTOMER (Betty Boop):
+   There's no button in the instruction booklet.
+
+AGENT (Will Smith):
+   The button isn't in the instructions, it will be on the device.
+
+<< ENTER key to Continue... >>
+
+CUSTOMER (Betty Boop):
+   Oh I get it that now makes sense.
+
+CUSTOMER (Betty Boop):
+   Wait... I get further now, but it's stops after pressing the yes button.
+
+AGENT (Will Smith):
+   What is the problem now?
+
+CUSTOMER (Betty Boop):
+   The instructions state to 'say no' if I have health issues.
+
+AGENT (Will Smith):
+   Do you have health issues?
+
+<< ENTER key to Continue... >>
+
+CUSTOMER (Betty Boop):
+   No.
+
+AGENT (Will Smith):
+   Then what is the problem exactly?
+
+CUSTOMER (Betty Boop):
+   It doesn't do anything when I say No.
+
+AGENT (Will Smith):
+   Again, you don't 'say' no, you must press the no button.
+
+CUSTOMER (Betty Boop):
+   Oh I get it now - thanks!
+
+<< ENTER key to Continue... >>
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+080599 20020 Shrimpy Shrimp  ACTIVE No power/does not turn on          1
+080004 20020 Shrimpy Shrimp  ACTIVE My head hurts!                     3
+070533 30004 Betty Boop      ACTIVE Nothing happens...                20
+080020 30004 Betty Boop      ACTIVE Double broken!                    20
+080204 30001 Silly Sally     ACTIVE It's very messy!                   2
+040599 35049 Buck Odom       ACTIVE Power Issue                        1
+040001 70021 Kane Lancaster  ACTIVE Connectivity Problem               5
+040530 70021 Kane Lancaster  ACTIVE Not doing what it's told...       20
+040004 35049 Buck Odom       ACTIVE Causes bodily harm!                3
+040533 70021 Kane Lancaster  ACTIVE Doesn't respond...                20
+040020 70021 Kane Lancaster  ACTIVE Damaged and in pieces             19
+040204 53070 Wylie Pollard   ACTIVE It's very messy!                   2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 8
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+060001 30004 Betty Boop      CLOSED Frequent Disconnects               5
+064611 20020 Shrimpy Shrimp  CLOSED It gets hot and smokes             4
+030530 30004 Betty Boop      CLOSED Does not respond to command...    20
+044611 35049 Buck Odom       CLOSED Unit is burning up                 4
+080600 30004 Betty Boop      CLOSED Funny Noise!                       2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 64611
+
+================================================================================
+064611 (CLOSED) Re: It gets hot and smokes
+================================================================================
+CUSTOMER (Shrimpy Shrimp):
+   When I put it in the oven, it gets hot and starts smoking.
+
+AGENT (Will Smith):
+   It is not designed to be put in the oven - your warranty is now void.
+
+CUSTOMER (Shrimpy Shrimp):
+   So you won't fix it?
+
+AGENT (Will Smith):
+   No - you will have to purchase another.
+
+<< ENTER key to Continue... >>
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+060001 30004 Betty Boop      CLOSED Frequent Disconnects               5
+064611 20020 Shrimpy Shrimp  CLOSED It gets hot and smokes             4
+030530 30004 Betty Boop      CLOSED Does not respond to command...    20
+044611 35049 Buck Odom       CLOSED Unit is burning up                 4
+080600 30004 Betty Boop      CLOSED Funny Noise!                       2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 20020
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+20020 CUSTOMER   2000 $ 350500.35 KOREA      Shrimpy Shrimp  cust3      8*3*J*m*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 4
+
+Acct# Acct.Type Birth
+----- --------- -----
+30001 CUSTOMER   1990
+50599 AGENT      1972
+30004 CUSTOMER   1978
+50008 AGENT      1952
+34000 AGENT      1991
+53007 CUSTOMER   1963
+30014 AGENT      1999
+70021 AGENT      1951
+35035 CUSTOMER   1999
+82042 CUSTOMER   1932
+35049 CUSTOMER   1990
+54056 CUSTOMER   1961
+82043 CUSTOMER   2003
+53070 CUSTOMER   1990
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 5
+
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+30001 CUSTOMER   1990 $ 150000.10 CANADA     Silly Sally     cust1      A*1*3*D*
+50599 AGENT      1972 $2250400.22 AFRICA     Fred Flintstone agent1     y*b*#*@*
+30004 CUSTOMER   1978 $ 250800.74 INDIA      Betty Boop      cust2      7***F*a*
+50008 AGENT      1952 $2350600.82 U.S.A.     Will Smith      agentJ     T***2*t*
+34000 AGENT      1991 $  61907.58 GREECE     Xyla Yates      Cherokee   E*1*d*&*
+53007 CUSTOMER   1963 $  22288.09 SLOVENIA   Chaney Kinney   Demetria   Y*0*j*&*
+30014 AGENT      1999 $  35403.36 SPAIN      Hanae Horn      Keiko      R*5*r*&*
+70021 AGENT      1951 $  77711.60 PORTUGAL   Kane Lancaster  Benjamin   H*8*z*&*
+35035 CUSTOMER   1999 $  83024.91 HONDURAS   Honorato Banks  Kimberly   C*7*o*&*
+82042 CUSTOMER   1932 $  40187.20 GUAM       Dexter Martin   Isabelle   H*2*k*&*
+35049 CUSTOMER   1990 $  60494.16 LESOTHO    Buck Odom       Aidan      B*6*s*&*
+54056 CUSTOMER   1961 $  91914.61 BAHAMAS    Craig Mcknight  Fredericka O*8*e*&*
+82043 CUSTOMER   2003 $ 125000.12 U.S.A.     Nay to Hay      HarryHorse a*J*8*$*
+53070 CUSTOMER   1990 $ 180222.22 CANADA     Wylie Coyote    Lara       d*9*@*F*
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 7
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+070533 30004 Betty Boop      ACTIVE Nothing happens...                20
+080020 30004 Betty Boop      ACTIVE Double broken!                    20
+080204 30001 Silly Sally     ACTIVE It's very messy!                   2
+040599 35049 Buck Odom       ACTIVE Power Issue                        1
+040001 70021 Kane Lancaster  ACTIVE Connectivity Problem               5
+040530 70021 Kane Lancaster  ACTIVE Not doing what it's told...       20
+040004 35049 Buck Odom       ACTIVE Causes bodily harm!                3
+040533 70021 Kane Lancaster  ACTIVE Doesn't respond...                20
+040020 70021 Kane Lancaster  ACTIVE Damaged and in pieces             19
+040204 53070 Wylie Pollard   ACTIVE It's very messy!                   2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 8
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+060001 30004 Betty Boop      CLOSED Frequent Disconnects               5
+030530 30004 Betty Boop      CLOSED Does not respond to command...    20
+044611 35049 Buck Odom       CLOSED Unit is burning up                 4
+080600 30004 Betty Boop      CLOSED Funny Noise!                       2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 1
+
+New Account Data (Account#:82044)
+----------------------------------------
+Enter the account type (A=Agent | C=Customer): C
+
+User Login Data Input
+----------------------------------------
+Enter user login (10 chars max): CrazyCamel
+Enter the display name (30 chars max): Sandy Sand
+Enter the password (must be 8 chars in length): 12RR!@jj
+
+Demographic Data Input
+----------------------------------------
+Enter birth year (current age must be between 18 and 110): 1911
+Enter the household Income: $54321.22
+Enter the country (30 chars max.): Australia
+
+*** New account added! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 5
+
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+30001 CUSTOMER   1990 $ 150000.10 CANADA     Silly Sally     cust1      A*1*3*D*
+50599 AGENT      1972 $2250400.22 AFRICA     Fred Flintstone agent1     y*b*#*@*
+30004 CUSTOMER   1978 $ 250800.74 INDIA      Betty Boop      cust2      7***F*a*
+50008 AGENT      1952 $2350600.82 U.S.A.     Will Smith      agentJ     T***2*t*
+82044 CUSTOMER   1911 $  54321.22 AUSTRALIA  Sandy Sand      CrazyCamel 1*R*!*j*
+34000 AGENT      1991 $  61907.58 GREECE     Xyla Yates      Cherokee   E*1*d*&*
+53007 CUSTOMER   1963 $  22288.09 SLOVENIA   Chaney Kinney   Demetria   Y*0*j*&*
+30014 AGENT      1999 $  35403.36 SPAIN      Hanae Horn      Keiko      R*5*r*&*
+70021 AGENT      1951 $  77711.60 PORTUGAL   Kane Lancaster  Benjamin   H*8*z*&*
+35035 CUSTOMER   1999 $  83024.91 HONDURAS   Honorato Banks  Kimberly   C*7*o*&*
+82042 CUSTOMER   1932 $  40187.20 GUAM       Dexter Martin   Isabelle   H*2*k*&*
+35049 CUSTOMER   1990 $  60494.16 LESOTHO    Buck Odom       Aidan      B*6*s*&*
+54056 CUSTOMER   1961 $  91914.61 BAHAMAS    Craig Mcknight  Fredericka O*8*e*&*
+82043 CUSTOMER   2003 $ 125000.12 U.S.A.     Nay to Hay      HarryHorse a*J*8*$*
+53070 CUSTOMER   1990 $ 180222.22 CANADA     Wylie Coyote    Lara       d*9*@*F*
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 9
+
+Enter ticket number: 80600
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Funny Noise!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 1
+
+ERROR: Ticket is closed - new messages are not permitted.
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Funny Noise!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 2
+
+ERROR: Ticket is already closed!
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Funny Noise!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 3
+
+Are you sure you RE-OPEN this closed ticket? ([Y]es|[N]o): N
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Funny Noise!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 8
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+060001 30004 Betty Boop      CLOSED Frequent Disconnects               5
+030530 30004 Betty Boop      CLOSED Does not respond to command...    20
+044611 35049 Buck Odom       CLOSED Unit is burning up                 4
+080600 30004 Betty Boop      CLOSED Funny Noise!                       2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 9
+
+Enter ticket number: 80600
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Funny Noise!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 3
+
+Are you sure you RE-OPEN this closed ticket? ([Y]es|[N]o): Y
+
+*** Ticket re-opened! ***
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Funny Noise!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 1
+
+Enter the ticket message details (150 chars. maximum). Press the ENTER key to submit:
+Enjoy your purchase!
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Funny Noise!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 2
+
+Are you sure you CLOSE this ticket? ([Y]es|[N]o): Y
+
+Do you want to leave a closing message? ([Y]es|[N]o): Y
+
+Enter the ticket message details (150 chars. maximum). Press the ENTER key to submit:
+Ticket is now closed.
+
+*** Ticket closed! ***
+
+----------------------------------------
+Ticket 080600 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Funny Noise!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 8
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+060001 30004 Betty Boop      CLOSED Frequent Disconnects               5
+030530 30004 Betty Boop      CLOSED Does not respond to command...    20
+044611 35049 Buck Odom       CLOSED Unit is burning up                 4
+080600 30004 Betty Boop      CLOSED Funny Noise!                       4
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 80600
+
+================================================================================
+080600 (CLOSED) Re: Funny Noise!
+================================================================================
+CUSTOMER (Betty Boop):
+   When it turns on it screams at me and it's quite offending.
+
+CUSTOMER (Betty Boop):
+   Never mind, I oiled it and all is fine now.
+
+AGENT (Will Smith):
+   Enjoy your purchase!
+
+AGENT (Will Smith):
+   Ticket is now closed.
+
+<< ENTER key to Continue... >>
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+060001 30004 Betty Boop      CLOSED Frequent Disconnects               5
+030530 30004 Betty Boop      CLOSED Does not respond to command...    20
+044611 35049 Buck Odom       CLOSED Unit is burning up                 4
+080600 30004 Betty Boop      CLOSED Funny Noise!                       4
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 9
+
+Enter ticket number: 70533
+
+----------------------------------------
+Ticket 070533 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Nothing happens...
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 1
+
+ERROR: Message limit has been reached, call ITS Support!
+
+----------------------------------------
+Ticket 070533 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Nothing happens...
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 9
+
+Enter ticket number: 80204
+
+----------------------------------------
+Ticket 080204 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : It's very messy!
+Acct#   : 30001
+Customer: Silly Sally
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 2
+
+Are you sure you CLOSE this ticket? ([Y]es|[N]o): Y
+
+Do you want to leave a closing message? ([Y]es|[N]o): N
+
+*** Ticket closed! ***
+
+----------------------------------------
+Ticket 080204 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : It's very messy!
+Acct#   : 30001
+Customer: Silly Sally
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 9
+
+Enter ticket number: 80020
+
+----------------------------------------
+Ticket 080020 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Double broken!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 2
+
+Are you sure you CLOSE this ticket? ([Y]es|[N]o): Y
+
+*** Ticket closed! ***
+
+----------------------------------------
+Ticket 080020 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Double broken!
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 9
+
+Enter ticket number: 70533
+
+----------------------------------------
+Ticket 070533 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Nothing happens...
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 3
+
+ERROR: Ticket is already active!
+
+----------------------------------------
+Ticket 070533 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Nothing happens...
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 9
+
+Enter ticket number: 60001
+
+----------------------------------------
+Ticket 060001 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Frequent Disconnects
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 3
+
+Are you sure you RE-OPEN this closed ticket? ([Y]es|[N]o): N
+
+----------------------------------------
+Ticket 060001 - Update Options
+----------------------------------------
+Status  : CLOSED
+Subject : Frequent Disconnects
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 3
+
+Are you sure you RE-OPEN this closed ticket? ([Y]es|[N]o): Y
+
+*** Ticket re-opened! ***
+
+----------------------------------------
+Ticket 060001 - Update Options
+----------------------------------------
+Status  : ACTIVE
+Subject : Frequent Disconnects
+Acct#   : 30004
+Customer: Betty Boop
+----------------------------------------
+1) Add a message
+2) Close ticket
+3) Re-open ticket
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 7
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+060001 30004 Betty Boop      ACTIVE Frequent Disconnects               5
+070533 30004 Betty Boop      ACTIVE Nothing happens...                20
+040599 35049 Buck Odom       ACTIVE Power Issue                        1
+040001 70021 Kane Lancaster  ACTIVE Connectivity Problem               5
+040530 70021 Kane Lancaster  ACTIVE Not doing what it's told...       20
+040004 35049 Buck Odom       ACTIVE Causes bodily harm!                3
+040533 70021 Kane Lancaster  ACTIVE Doesn't respond...                20
+040020 70021 Kane Lancaster  ACTIVE Damaged and in pieces             19
+040204 53070 Wylie Pollard   ACTIVE It's very messy!                   2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 60001
+
+================================================================================
+060001 (ACTIVE) Re: Frequent Disconnects
+================================================================================
+CUSTOMER (Betty Boop):
+   Every time I go near the microwave the unit disconnects.
+
+AGENT (Will Smith):
+   Don't go near the microwave.
+
+AGENT (Will Smith):
+   It will radiate waves which will interrupt the unit.
+
+CUSTOMER (Betty Boop):
+   But I use the microwave a lot.
+
+AGENT (Will Smith):
+   You cook too much!
+
+<< ENTER key to Continue... >>
+
+------ ----- --------------- ------ ------------------------------ --------
+Ticket Acct# Display Name    Status Subject                        Messages
+------ ----- --------------- ------ ------------------------------ --------
+060001 30004 Betty Boop      ACTIVE Frequent Disconnects               5
+070533 30004 Betty Boop      ACTIVE Nothing happens...                20
+040599 35049 Buck Odom       ACTIVE Power Issue                        1
+040001 70021 Kane Lancaster  ACTIVE Connectivity Problem               5
+040530 70021 Kane Lancaster  ACTIVE Not doing what it's told...       20
+040004 35049 Buck Odom       ACTIVE Causes bodily harm!                3
+040533 70021 Kane Lancaster  ACTIVE Doesn't respond...                20
+040020 70021 Kane Lancaster  ACTIVE Damaged and in pieces             19
+040204 53070 Wylie Pollard   ACTIVE It's very messy!                   2
+------ ----- --------------- ------ ------------------------------ --------
+
+Enter the ticket number to view the messages or
+0 to return to previous menu: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 10
+
+Are you sure? This action cannot be reversed. ([Y]es|[N]o): Y
+
+*** 5 tickets archived ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 30001
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+30001 CUSTOMER   1990 $ 150000.10 CANADA     Silly Sally     cust1      A*1*3*D*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 50599
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+50599 AGENT      1972 $2250400.22 AFRICA     Fred Flintstone agent1     y*b*#*@*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 30004
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+30004 CUSTOMER   1978 $ 250800.74 INDIA      Betty Boop      cust2      7***F*a*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 34000
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+34000 AGENT      1991 $  61907.58 GREECE     Xyla Yates      Cherokee   E*1*d*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 53007
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+53007 CUSTOMER   1963 $  22288.09 SLOVENIA   Chaney Kinney   Demetria   Y*0*j*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 30014
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+30014 AGENT      1999 $  35403.36 SPAIN      Hanae Horn      Keiko      R*5*r*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 70021
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+70021 AGENT      1951 $  77711.60 PORTUGAL   Kane Lancaster  Benjamin   H*8*z*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 35035
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+35035 CUSTOMER   1999 $  83024.91 HONDURAS   Honorato Banks  Kimberly   C*7*o*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 82042
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+82042 CUSTOMER   1932 $  40187.20 GUAM       Dexter Martin   Isabelle   H*2*k*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 35049
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+35049 CUSTOMER   1990 $  60494.16 LESOTHO    Buck Odom       Aidan      B*6*s*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Enter the account#: 54056
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+54056 CUSTOMER   1961 $  91914.61 BAHAMAS    Craig Mcknight  Fredericka O*8*e*&*
+
+Are you sure you want to remove this record? ([Y]es|[N]o): Y
+
+*** Account Removed! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 5
+
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+50008 AGENT      1952 $2350600.82 U.S.A.     Will Smith      agentJ     T***2*t*
+82044 CUSTOMER   1911 $  54321.22 AUSTRALIA  Sandy Sand      CrazyCamel 1*R*!*j*
+82043 CUSTOMER   2003 $ 125000.12 U.S.A.     Nay to Hay      HarryHorse a*J*8*$*
+53070 CUSTOMER   1990 $ 180222.22 CANADA     Wylie Coyote    Lara       d*9*@*F*
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 11
+
+There are 13 account(s) currently archived.
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 12
+
+There are 6 ticket(s) and a total of 54 message(s) archived.
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+ 1) Add a new account
+ 2) Modify an existing account
+ 3) Remove an account
+ 4) List accounts: summary view
+ 5) List accounts: detailed view
+----------------------------------------------
+ 6) List new tickets
+ 7) List active tickets
+ 8) List closed tickets
+ 9) Manage a ticket
+10) Archive closed tickets
+----------------------------------------------
+11) View archived account statistics
+12) View archived tickets statistics
+----------------------------------------------
+0) Logout
+
+Selection: 0
+
+Saving session modifications...
+   4 account saved.
+   1 tickets saved.
+### LOGGED OUT ###
+
+==============================================
+Account Ticketing System - Login
+==============================================
+1) Login to the system
+0) Exit application
+----------------------------------------------
+
+Selection: 0
+
+Are you sure you want to exit? ([Y]es|[N]o): y
+
+==============================================
+Account Ticketing System - Terminated
+==============================================
+
+
+Script done on Fri 02 Apr 2021 07:26:48 PM EDT
